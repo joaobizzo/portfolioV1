@@ -1,0 +1,197 @@
+
+
+body {
+    background-color: var(--bg-dark);
+    margin: 0;
+    overflow-x: hidden;
+    font-family: var(--fonte_padrao);
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .intro_box {
+        margin: 120px 10% 0; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header, .projetos, footer {
+        padding: 20px; 
+    }
+
+    .intro_box, .social_media a {
+        margin-top: 60px;
+        padding: 10px; 
+        font-size: smaller; 
+    }
+
+    .projetos h1, .projetos h2 {
+        font-size: 2em; 
+    }
+
+    .card {
+        position: relative;
+        height: 250px; 
+        width: 320px; 
+        overflow: hidden;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 300ms ease-in-out;
+        
+    } 
+    
+
+    .circle {
+        display: none; 
+    }
+
+    .intro_box {
+        padding: 1em;
+        transform: translateY(0);
+    }
+    
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .projetos h1 {
+        font-size: 2em;
+    }
+
+    .projetos h2 {
+        font-size: 1.5em;
+    }
+
+    .social_media {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .social_media a {
+        font-size: 0.8em;
+        padding: 0.5em 1em;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .intro_box {
+        margin: 1em auto;
+    }
+
+    header h1, .projetos h1 {
+        font-size: 1.5em; 
+    }
+
+    .social_media a {
+        font-size: 1em; 
+    }
+
+
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+ 
+    .projetos h2 {
+        font-size: 1em;
+    }
+}
+
+
+
+@keyframes background-pan {
+    from {
+        background-position: 0% center;
+    }
+
+    to {
+        background-position: 200% center;
+    }
+}
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+
+    }
+
+    50% {
+        scale: 1 1.5;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}
+
+
+.glass {
+    padding: 20px;
+    background: linear-gradient(165deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1000; /* so that it stays on top of all other elements */
+    opacity: 0.6;
+    box-shadow: 0 0 8px rgba(238, 130, 238, 0.269);
+  }
+
+
+header {
+    height: 85vh;
+    
+}
+
+header h1, h2, h3 {
+    color: var(--princ_white);
+    font-family: var(--fonte_titulo);
+    font-weight: 400;
+    margin: 0px;
+}
+
+header h1 {
+    font-size: var(--font_size_titulo);
+    text-align: center;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    font-size: 3em;
+
+}
+
+header h2 {
+    font-family: var(--fonte_chique);
+    font-size: clamp(1.8em, 2vh, 4em);
+    padding: 0px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+footer {
+    height: 5vh;
+    width: 100%;
+    font-size: 14px;
+    bottom: 0;
+    text-align: center;
+    transform: translateY(15px);
+    line-height: 40px;
+    font-family: var(--fonte_chique);
+    color: var(--princ_grey);
+    font-weight: bold;
+    opacity: 0.8;
+}

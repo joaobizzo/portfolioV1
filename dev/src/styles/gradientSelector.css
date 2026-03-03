@@ -1,0 +1,55 @@
+/* src/styles/GradientSelector.css */
+.gradient-selector-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+  height: 4vh; 
+}
+
+.gradient-circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 3px 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  filter: brightness(70%);
+  background-size: cover;
+  background-position: center;
+}
+
+.gradient-circle:hover {
+  filter: brightness(100%);
+}
+
+.gradient-circle:active {
+  transform: scale(0.9); 
+}
+
+
+
+.dropdown-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+  transition: color 0.3s ease;
+}
+.dropdown-button:hover {
+  color: white;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(24, 24, 24, 0.8);
+  border-radius: 5px;
+  padding: 5px 0;
+}
+

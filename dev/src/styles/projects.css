@@ -1,0 +1,109 @@
+/* PROJECT CARDS*/
+
+
+.card-title {
+  position: relative;
+  font-family: var(--fonte_padrao);
+  background-color: var(--bg);
+  color: var(--text);
+  text-align: center;
+  padding: 7px 0;
+  margin: 0;
+
+}
+
+.card {
+  
+  filter: contrast(85%);
+  filter: grayscale(40%);
+  border: 1px solid var(--border);
+  border-top: 1px solid var(--highlight);
+  
+}
+
+.card:hover {
+  filter: contrast(100%);
+  transform: scale(1.1);
+  
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0 0 5px 5px;
+}
+
+/* AFTER CLICK*/
+.badge-container {
+    margin-top: 0px;
+  }
+  
+  .badge {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+
+    box-shadow: 1px 1px 5px #0a0a0a;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  /* BADGE */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltip-text {
+    visibility: hidden;
+    font-size: 12px;
+    width: 120px;
+    background-color: var(--grey1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+
+  
+  .badge:hover {
+    cursor: help;
+  }
+
+  .project-link {
+    display: inline-block;
+    margin-top: 20px;
+    
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    transition: background-color 0.3s ease;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .project-link:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    transition: box-shadow 0.3s ease;
+  }
+  

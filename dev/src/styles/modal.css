@@ -1,0 +1,167 @@
+.full-screen-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    width: 75%;
+    max-width: 1200px;
+    background-color: var(--grey3);
+    padding: 35px;
+    border-radius: 7px;
+    overflow: auto;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.modal-title {
+    font-size: 2.9em;
+    flex-grow: 1;
+    text-align: center;
+    color: var(--gradient-magic);
+}
+
+.badge-container {
+    position: absolute;
+    left: 10px;  
+    top: 10px;  
+    display: flex;
+    align-items: center;
+}
+
+.badge {
+    background-color: #eeeeee41;
+    
+    color: #000000;
+    padding: 1px 4px;  
+    margin-left: 5px;
+    border-radius: 2px;
+    font-size: 8px;  
+}
+
+.badge-image {
+    height: 15px; 
+    object-fit: contain; 
+    margin-left: 5px; 
+  }
+
+.close-button {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: row; /* Default to side-by-side */
+    align-items: flex-start; 
+    margin-top: 20px;
+  }
+  
+
+  .modal-image {
+    width: 60%; 
+    max-width: 100%; 
+    height: auto; 
+    margin-right: 20px; 
+  }
+
+.description-container {
+width: 40%; /* Takes the remaining 40% of the modal-body on large screens */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.modal-description {
+    text-align: justify;
+    font-size: 1.3em;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.project-link {
+    font-size: 1.5em;
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.1);
+    filter: brightness(90%);
+    
+
+    display: block;
+    text-align: center;
+    
+   
+    padding: 5px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    height: 50px;  
+    line-height: 30px;  
+    margin-top: 10px;  
+
+    transition: filter 0.3s ease-in-out;
+}
+
+.project-link:hover {
+    filter: brightness(120%);
+    transition: filter 0.3s ease-in-out;
+}
+
+
+
+
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .modal-body {
+      flex-direction: column; /* Stack vertically on small screens */
+    }
+  
+    .modal-image {
+      width: 100%; 
+      margin-right: 0; 
+    }
+
+    .modal-content {
+        width: 90%;  
+        padding: 10px;  
+    }
+
+    .modal-description {
+        font-size: 1em;  
+    }
+  
+    .description-container {
+      width: 100%; /* Description takes full width below the image */
+    }
+
+    .badge-container {
+        display: none; /* Hides the badges on screens smaller than 768px */
+      }
+
+      
+
+    .project-link {
+        font-size: 0.9em;  
+    }
+  }

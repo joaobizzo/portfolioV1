@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Open+Sans&family=Rubik&display=swap');
+
+:root {
+    
+    --princ_white: #FAFAFA;
+    --princ_grey: #535353;
+    --grey1: #100F10;
+    --grey3: #242424;
+    --color_bgd: #0a0a0a;
+    --fonte_titulo: "Rubik", sans-serif;
+    --fonte_chique: 'Montserrat', sans-serif;
+    --fonte_padrao: "Open Sans", sans-serif;
+
+    
+
+    /* GRADIENT RED-ORANGE */
+    --gradient-colors-red: var(--yellow), var(--orange), var(--red);
+    --gradient-magic-red: linear-gradient(to right, #11100e, var(--orange), var(--red), var(--yellow));
+    --yellow: #FFCA44;
+    --orange: #ef651a;
+    --red: #E60B09;
+    --bg-dark: oklch(0.1 0.02 51);
+    --bg-dark: oklch(0.1 0.02 51);
+    --bg: oklch(0.15 0.02 51);
+    --bg-light: oklch(0.2 0.02 51);
+    --text: oklch(0.96 0.04 51);
+    --text-muted: oklch(0.76 0.04 51);
+    --highlight: oklch(0.5 0.04 51);
+    --border: oklch(0.4 0.04 51);
+    --border-muted: oklch(0.3 0.04 51);
+    --primary: oklch(0.76 0.1 51);
+    
+
+    /* GRADIENT BLUE GREEN*/
+    --gradient-colors-blue: var(--green), var(--light-blue), var(--deep-blue);
+    --gradient-magic-blue: linear-gradient(to right, var(--green), var(--light-blue), var(--deep-blue), var(--green));
+    --green: #00FF87;
+    --light-blue: #60EFFF;
+    --deep-blue: #0061FF;
+    --bg-dark: oklch(0.1 0.02 228);
+    --bg: oklch(0.15 0.02 228);
+    --bg-light: oklch(0.2 0.02 228);
+    --text: oklch(0.96 0.04 228);
+    --text-muted: oklch(0.76 0.04 228);
+    --highlight: oklch(0.5 0.04 228);
+    --border: oklch(0.4 0.04 228);
+    --border-muted: oklch(0.3 0.04 228);
+
+
+    /* GRADIENT PURPLE-PINK:*/
+    --gradient-colors:  var(--pink), var(--violet), var(--purple); 
+    --gradient-magic: linear-gradient(to right,  var(--purple), var(--violet), var(--pink),  var(--purple));
+    --purple: #7b1fa2;
+    --violet: #673ab7;
+    --pink: #F48FB1;
+    --princ_violet: #8f00ff;
+    --bg-dark: oklch(0.1 0.02 329);
+    --bg: oklch(0.15 0.02 329);
+    --bg-light: oklch(0.2 0.02 329);
+    --text: oklch(0.96 0.04 329);
+    --text-muted: oklch(0.76 0.04 329);
+    --highlight: oklch(0.5 0.04 329);
+    --border: oklch(0.4 0.04 329);
+    --border-muted: oklch(0.3 0.04 329);
+
+}

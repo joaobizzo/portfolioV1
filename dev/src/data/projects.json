@@ -1,0 +1,78 @@
+[
+  {
+    "id": "sofon-ai-challenge-platform",
+    "title": "Sofon – AI Challenge Platform",
+    "problemStatement": "AI practitioners often struggle to find engaging, real-world problems to apply and hone their skills, leading to a gap between theoretical knowledge and practical experience.",
+    "solutionOverview": "Sofon is a startup platform designed to host AI competitions, connecting data scientists with real-world challenges posed by businesses and researchers. It provides a collaborative environment where participants can develop, test, and showcase their AI solutions.",
+    "tagline": "Led the end-to-end creation of a startup platform for AI competitions, from concept to investor pitches.",
+    "coverImage": "/images/projects/sofon-login.png",
+    "tags": [
+      { "name": "Product Management", "type": "competency" },
+      { "name": "Tech Leadership", "type": "competency" },
+      { "name": "Full-Stack Development", "type": "competency" },
+      { "name": "Startup Strategy", "type": "competency" },
+      { "name": "React", "type": "technology" },
+      { "name": "FastAPI", "type": "technology" },
+      { "name": "MongoDB", "type": "technology" },
+      { "name": "Docker", "type": "technology" },
+      { "name": "Lean Startup", "type": "activity" },
+      { "name": "Investor Relations", "type": "activity" }
+    ],
+    "links": [
+      
+      { "name": "Prototype Demo", "url": "#", "icon": "play-circle" }
+    ],
+    "startDate": "2024-06-15",
+    "endDate": "2025-08-31"
+  },
+  {
+    "id": "metalearning-class-open-source",
+    "title": "Metalearning Class – Open Source Launch",
+    "tagline": "Initiated and led the launch of an advanced metalearning library to PyPI seeding the foundation for a future AI developer community.",
+    "problemStatement": "The AI community lacks tools for metalearning, hindering researchers and developers from exploring this advanced area of machine learning.",
+    "solutionOverview": "Metalearning Class is an (soon open-source) Python library that provides a suite of tools and algorithms for metalearning. By launching it on PyPI, the project aims to foster a community of AI developers and researchers interested in metalearning techniques.",
+    "coverImage": "/images/projects/metalearning-class.png",
+    "tags": [
+      { "name": "Python", "type": "technology" },
+      { "name": "Machine Learning", "type": "technology" },
+      { "name": "Deep Learning", "type": "technology" },
+      { "name": "Metalearning", "type": "technology" },
+      { "name": "Open Source Leadership", "type": "competency" },
+      { "name": "Community Building", "type": "competency" },
+      { "name": "Technical Documentation", "type": "activity" },
+      { "name": "GitHub", "type": "technology" }
+    ],
+    "links": [
+      { "name": "PyPI Package", "url": "https://pypi.org/project/metalearning-class/", "icon": "package" }
+      
+      
+    ],
+    "startDate": "2024-05-01",
+    "endDate": "2024-06-15"
+  },
+  {
+    "id": "dca-wallet-open-source",
+    "title": "DCA Wallet – Self-Hosted Bitcoin Tracker",
+    "tagline": "Founder and lead developer of a privacy-first, self-hosted Bitcoin watch-only wallet with DCA strategy support.",
+    "coverImage": "/images/projects/dcaw-dashboard.png",
+    "problemStatement": "Bitcoin investors seeking to apply Dollar-Cost Averaging strategies often rely on centralized tools that compromise privacy and self-custody principles.",
+    "solutionOverview": "DCA Wallet is a minimalist, self-hosted, watch-only wallet that allows users to track their Bitcoin reserves and apply DCA strategies without sharing any data with third parties. The project is fully open source, emphasizing financial sovereignty.",
+    "tags": [
+      { "name": "Product Management", "type": "competency" },
+      { "name": "Tech Leadership", "type": "competency" },
+      { "name": "Python", "type": "technology" },
+      { "name": "FastAPI", "type": "technology" },
+      { "name": "React", "type": "technology" },
+      { "name": "TypeScript", "type": "technology" },
+      { "name": "Tailwind", "type": "technology" },
+      { "name": "MongoDB", "type": "technology" },
+      { "name": "Docker", "type": "technology" },
+      { "name": "Open Source", "type": "activity" }
+    ],
+    "links": [
+      { "name": "GitHub Repository", "url": "https://github.com/dcawallet/dca-wallet", "icon": "github" }
+    ],
+    "startDate": "2025-03-01",
+    "endDate": null
+  }
+]
